@@ -6,13 +6,13 @@
     align-items: center;
 }
 
-.sobre-nos__subtitulo{
+.sobre-nos__titulo{
     font-weight: 600;
     color: var(--cor-terciaria);
     margin-bottom: 1.5em;
 }
 
-.sobre-nos__titulo{
+.sobre-nos__subtitulo{
     font-size: 3em;
     color: var(--cor-titulos);
     font-weight: 600;
