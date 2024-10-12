@@ -1,0 +1,49 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 3em;
+    font-family: var(--fonte-principal);
+}
+
+.container-logo{
+    display: flex;
+    align-items: center;
+
+}
+
+.logo__imagem{
+    padding-right: 0.5em;
+}
+
+.logo__titulo{
+    color: var(--cor-logo);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.container-links{
+    width: 50vw;
+}
+
+.links__item{
+    padding-right: 2em;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-weight: 500;
+}
+
+.container-botao{
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-weight: 500;
+    margin-left: 2em;
+}
+
+.botao__cadastro{
+    padding: 0.6em 1.3em;
+    background-color: var(--cor-terciaria);
+    color: var(--cor-background);
+    border: 1px solid var(--cor-terciaria);
+    border-radius: 8px;
+}
