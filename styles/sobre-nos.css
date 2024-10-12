@@ -1,4 +1,4 @@
-.introducao{
+.sobre-nos{
     padding: 6em 0;
     display: flex;
     flex-direction: column;
@@ -6,20 +6,20 @@
     align-items: center;
 }
 
-.introducao__subtitulo{
+.sobre-nos__subtitulo{
     font-weight: 600;
     color: var(--cor-terciaria);
     margin-bottom: 1.5em;
 }
 
-.introducao__titulo{
+.sobre-nos__titulo{
     font-size: 3em;
     color: var(--cor-titulos);
     font-weight: 600;
     margin-bottom: 1.1em;
 }
 
-.introducao__texto{
+.sobre-nos__texto{
     color: var(--cor-secundaria);
     font-size: 20px;
     max-width: 55vw;
