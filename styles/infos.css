@@ -1,0 +1,31 @@
+.infos{
+    display: flex;
+    justify-content: center;
+    padding: 0 5em 6em 5em;
+    gap: 32px;
+}
+
+.infos-item{
+    max-width: 280px;
+}
+
+.infos-item__titulo{
+    font-weight: 600;
+    font-size: 60px;
+    color: var(--cor-titulo);
+    margin-bottom: 12px;
+    line-height: 72px;
+}
+
+.infos-item__subtitulo{
+    font-weight: 500;
+    size: 18px;
+    color: var(--cor-subtitulo);   
+    margin-bottom: 8px;
+    line-height: 28px;
+}
+
+.infos-item__texto{
+    color: var(--cor-textos);
+    line-height: 24px;
+}

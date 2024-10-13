@@ -8,19 +8,20 @@
 
 .sobre-nos__titulo{
     font-weight: 600;
-    color: var(--cor-terciaria);
-    margin-bottom: 1.5em;
+    color: var(--cor-titulo);
+    margin-bottom: 24px;
 }
 
 .sobre-nos__subtitulo{
-    font-size: 3em;
-    color: var(--cor-titulos);
+    font-size: 48px;
+    color: var(--cor-subtitulos);
     font-weight: 600;
-    margin-bottom: 1.1em;
+    margin-bottom: 24px;
 }
 
 .sobre-nos__texto{
-    color: var(--cor-secundaria);
+    color: var(--cor-textos);
     font-size: 20px;
-    max-width: 55vw;
+    max-width: 55%;
+    line-height: 30px;
 }

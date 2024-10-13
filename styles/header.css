@@ -29,21 +29,21 @@
 .links__item{
     padding-right: 2em;
     text-decoration: none;
-    color: var(--cor-secundaria);
+    color: var(--cor-textos);
     font-weight: 500;
 }
 
 .container-botao{
     text-decoration: none;
-    color: var(--cor-secundaria);
+    color: var(--cor-textos);
     font-weight: 500;
     margin-left: 2em;
 }
 
 .botao__cadastro{
     padding: 0.6em 1.3em;
-    background-color: var(--cor-terciaria);
+    background-color: var(--cor-titulo);
     color: var(--cor-background);
-    border: 1px solid var(--cor-terciaria);
+    border: 1px solid var(--cor-titulo);
     border-radius: 8px;
 }
