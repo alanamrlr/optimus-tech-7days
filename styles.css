@@ -4,6 +4,7 @@
 @import url(styles/infos.css);
 @import url(styles/vagas.css);
 @import url(styles/colaboradores.css);
+@import url(styles/rodape.css);
 
 :root{
     --cor-background:#FFFFFF;
@@ -14,6 +15,9 @@
     --cor-subtitulo: #101828;
     --cor-borda: #EAECF0;
     --cor-background-vermelho-claro:#8E24240D;
+    --cor-background-rodape: #F9FAFB;
+    --cor-borda-botao-rodape: #D0D5DD;
+;
 }
 
 *{
