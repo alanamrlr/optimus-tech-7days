@@ -1,0 +1,74 @@
+.vagas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 32px;
+    margin-bottom: 64px;
+}
+
+.vagas-titulo{
+    color: var(--cor-titulo);
+    border: 1px solid transparent;
+    border-radius: 16px;
+    padding: 4px 12px;
+    background-color: var(--cor-background-vermelho-claro);  
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 96px;
+    margin-bottom: 16px; 
+}
+
+.vagas-subtitulo{
+    color: var(--cor-subtitulo);
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.vagas-texto{
+    color: var(--cor-textos);
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 64px;
+}
+
+.vagas-detalhes{
+    display: flex;
+    flex-direction: column;
+    margin: 0 80px;
+    padding: 0 256px 96px 256px;
+}
+
+.vagas-area{
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--cor-subtitulo);
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+
+.vagas-area__especificacao{
+    border: 1px solid var(--cor-borda);
+    border-radius: 16px;
+    padding: 24px 24px 28px 24px;
+    margin-bottom: 24px;
+}
+
+.vaga-especificacao__titulo{
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--cor-subtitulo);
+    line-height: 28px;
+}
+
+.vaga-especificacao__informacoes{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--cor-textos);
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+}
